@@ -7,36 +7,52 @@ module.exports = [
     items: [
       // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
       {
-        text: '前端文章',
-        items: [
-          { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
-          { text: 'Vue', link: '/pages/5d463fbdb172d43b/' },
-        ],
+        text: 'Http',
+        link: '/pages/1d1b92/'       
       },
       {
-        text: '学习笔记',
-        items: [
-          { text: '《JavaScript教程》笔记', link: '/note/javascript/' },
-          { text: '《JavaScript高级程序设计》笔记', link: '/note/js/' },
-          { text: '《ES6 教程》笔记', link: '/note/es6/' },
-          { text: '《Vue》笔记', link: '/note/vue/' },
-          {
-            text: '《TypeScript 从零实现 axios》',
-            link: '/note/typescript-axios/',
-          },
-          {
-            text: '《Git》学习笔记',
-            link: '/note/git/',
-          },
-          {
-            text: 'TypeScript笔记',
-            link: '/pages/51afd6/',
-          },
-          {
-            text: 'JS设计模式总结笔记',
-            link: '/pages/4643cd/',
-          },
-        ],
+        text: 'Ajax',
+        link: '/pages/43a79d/'       
+      },
+      {
+        text: 'Node',
+        link: '/pages/079821/'       
+      },
+      {
+        text: 'MongoDB',
+        link: '/pages/934d6e/'       
+      },
+      {
+        text: 'Axios',
+        link: '/pages/2135b2/'       
+      },
+      {
+        text: 'Git',
+        link: '/pages/06c08b/',  
+      },
+      {
+        text: 'Webpack',
+        link: '/pages/df6335/'       
+      },
+      {
+        text: 'React',
+        link: '/pages/50bb3f/'       
+      },
+      {
+        text: 'Vue',
+        link: '/pages/92b496/'       
+      },
+      {
+        text: 'Uni-app',
+        link: '/pages/bdbd49/'       
+      },
+      {
+        text: '性能优化',
+        link: '/pages/01a636/'       
+      },
+      {
+        text: '移动端',
+        link: '/pages/3b5bc6/'       
       },
     ],
   },
@@ -46,46 +62,43 @@ module.exports = [
     items: [
       { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
       { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+      { text: 'stylus', link: '/pages/9f15c1a281d8bedb/' },
     ],
   },
   {
     text: '技术',
     link: '/technology/',
     items: [
-      { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-      { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-      { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
-      { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+      { text: '常用', link: '/pages/23a16b/' },
+      { text: '实战', link: '/pages/197744/' },
     ],
   },
-  {
-    text: '更多',
-    link: '/more/',
-    items: [
-      { text: '学习', link: '/pages/f2a556/' },
-      { text: '面试', link: '/pages/aea6571b7a8bae86/' },
-      { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
-      { text: '实用技巧', link: '/pages/baaa02/' },
-      { text: '友情链接', link: '/friends/' },
-    ],
-  },
-  { text: '关于', link: '/about/' },
   {
     text: '收藏',
     link: '/pages/beb6c0bd8a66cea6/',
     items: [
-      { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
-      { text: '资源', link: '/pages/eee83a9211a70f9d/' },
-      { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
+      { text: '实用网站', link: '/pages/beb6c0bd8a66cea6/' },
+      { text: '资源库', link: '/pages/eee83a9211a70f9d/' },
+      { text: 'Vue专区', link: '/pages/12df8ace52d493f6/' },
+    ],
+  },
+  { text: '关于', link: '/about/' },
+  {
+    text: 'UI库',
+    link: '/pages/f2a556/',
+    items: [
+      { text: 'css效果', link: '/pages/f2a556/' },
+      { text: 'js效果', link: '/pages/de46e0/' },
+      
+      
     ],
   },
   {
-    text: '索引',
-    link: '/archives/',
+    text: '随笔',
+    link: '/pages/f2e63f/',
     items: [
-      { text: '分类', link: '/categories/' },
-      { text: '标签', link: '/tags/' },
-      { text: '归档', link: '/archives/' },
+      { text: '拥抱生活', link: '/pages/cd8bde/' },
+      { text: '生活知道', link: '/pages/f2e63f/' },
     ],
   },
 ]

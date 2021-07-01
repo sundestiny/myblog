@@ -4,7 +4,7 @@
       <img
         :src="blogger.avatar"
         alt="头像"
-        title="我好看吗"
+        title="真不错"
       />
     </div>
     <div
